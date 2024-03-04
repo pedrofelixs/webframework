@@ -1,0 +1,10 @@
+<p> Cadastro de produto </p>
+
+    <label for="">Nome: </label>
+    <input type="text" id="nome" name="nome" [formControl] = "nome">
+        
+    
+    <label for="">Preço</label>
+    <input type="text" id="preco" name="preco" [formControl] = "preco">
+    
+    <button (click)="salvar()">Salvar</button>
